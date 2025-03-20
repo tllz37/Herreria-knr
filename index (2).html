@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+        }
+        .imagen {
+            width: 80vw;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .boton {
+            position: absolute;
+            top: 83.8%; /* Ubicación hacia la parte inferior de la imagen */
+            left: 50%; /* Centrando el botón horizontalmente */
+            transform: translate(-50%, -50%);
+            background-color: ##000000; /* Color típico de WhatsApp */
+            color: black;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background-color: #128c7e; /* Color más oscuro al pasar el cursor */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="imagen" src="https://raw.githubusercontent.com/tllz37/imagenekenr/refs/heads/main/fotodekenr.jpg" alt="Publicidad">
+        <button class="boton" onclick="window.location.href='https://wa.me/529841848314';">
+            Contáctanos
+        </button>
+    </div>
+</body>
+</html>
